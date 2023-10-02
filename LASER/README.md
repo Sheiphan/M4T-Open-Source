@@ -2,9 +2,6 @@
 
 LASER is a library to calculate and use multilingual sentence embeddings.
 
-**CURRENT VERSION:**
-* We now provide updated LASER models which support over 200 languages. Please see [here](nllb/README.md) for more details including how to download the models and perform inference.
-
 According to our experience, the sentence encoder also supports code-switching, i.e.
 the same sentences can contain words in several different languages.
 
@@ -37,29 +34,7 @@ be found [here](https://arxiv.org/abs/2205.12654), together with an experimental
 * download encoders from Amazon s3 by e.g. `bash ./nllb/download_models.sh` 
 * download third party software by `bash ./install_external_tools.sh`
 * download the data used in the example tasks (see description for each task)
-
-## Applications
-
-We showcase several applications of multilingual sentence embeddings
-with code to reproduce our results (in the directory "tasks").
-
-* [**Cross-lingual document classification**](tasks/mldoc) using the
-  [*MLDoc*](https://github.com/facebookresearch/MLDoc) corpus [2,6]
-* [**WikiMatrix**](tasks/WikiMatrix)
-   Mining 135M Parallel Sentences in 1620 Language Pairs from Wikipedia [7]
-* [**Bitext mining**](tasks/bucc) using the
-  [*BUCC*](https://comparable.limsi.fr/bucc2018/bucc2018-task.html) corpus [3,5]
-* [**Cross-lingual NLI**](tasks/xnli)
-  using the [*XNLI*](https://www.nyu.edu/projects/bowman/xnli/) corpus [4,5,6]
-* [**Multilingual similarity search**](tasks/similarity) [1,6]
-* [**Sentence embedding of text files**](tasks/embed)
-  example how to calculate sentence embeddings for arbitrary text files in any of the supported language.
-
-**For all tasks, we use exactly the same multilingual encoder, without any task specific optimization or fine-tuning.**
-
-## License
-
-LASER is BSD-licensed, as found in the [`LICENSE`](LICENSE) file in the root directory of this source tree.
+  
 
 ## Supported languages
 
