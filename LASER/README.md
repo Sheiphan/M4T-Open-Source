@@ -2,17 +2,6 @@
 
 LASER is a library to calculate and use multilingual sentence embeddings.
 
-**NEWS**
-* 2023/06/26 [**xSIM++**](https://arxiv.org/abs/2306.12907) evaluation pipeline and data [**released**](tasks/xsimplusplus/README.md)
-* 2022/07/06 Updated LASER models with support for over 200 languages are [**now available**](nllb/README.md)
-* 2022/07/06 Multilingual similarity search (**xsim**) evaluation pipeline [**released**](tasks/xsim/README.md)
-* 2022/05/03 [**Librivox S2S is available**](tasks/librivox-s2s): Speech-to-Speech translations automatically mined in Librivox [9]
-* 2019/11/08 [**CCMatrix is available**](tasks/CCMatrix): Mining billions of high-quality parallel sentences on the WEB [8]
-* 2019/07/31 Gilles Bodard and Jérémy Rapin provided a [**Docker environment**](docker) to use LASER
-* 2019/07/11 [**WikiMatrix is available**](tasks/WikiMatrix): bitext extraction for 1620 language pairs in WikiPedia [7]
-* 2019/03/18 switch to BSD license
-* 2019/02/13 The code to perform bitext mining is [**now available**](tasks/bucc)
-
 **CURRENT VERSION:**
 * We now provide updated LASER models which support over 200 languages. Please see [here](nllb/README.md) for more details including how to download the models and perform inference.
 
